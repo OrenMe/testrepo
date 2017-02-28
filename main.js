@@ -3,5 +3,5 @@ function main(){
 }
 
 function more(){
-	
+	retrun 1;
 }
