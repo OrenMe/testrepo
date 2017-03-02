@@ -5,3 +5,6 @@ function main(){
 function more(){
 	retrun 1;
 }
+
+function evenMore(){
+}
