@@ -3,7 +3,7 @@ function main(){
 }
 
 function more(){
-	retrun 1;
+	return 1;
 }
 
 function evenMore(){
