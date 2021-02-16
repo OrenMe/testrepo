@@ -5,6 +5,7 @@ on:
       - opened
       - edited
       - synchronize
+      - labaled
 
 jobs:
   main:
