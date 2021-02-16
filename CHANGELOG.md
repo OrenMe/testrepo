@@ -13,6 +13,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.1.1"></a>
+## [1.6.0](https://www.github.com/OrenMe/testrepo/compare/v1.5.0...v1.6.0) (2021-02-16)
+
+
+### Features
+
+* add method again ([#15](https://www.github.com/OrenMe/testrepo/issues/15)) ([647f6c2](https://www.github.com/OrenMe/testrepo/commit/647f6c2c8924b4fed1500e665207261f4851705b))
+
 ## [1.5.0](https://www.github.com/OrenMe/testrepo/compare/v1.4.0...v1.5.0) (2021-02-16)
 
 
