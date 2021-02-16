@@ -1,3 +1,5 @@
+const X = 1000;
+
 function main(){
 	return false;
 }
