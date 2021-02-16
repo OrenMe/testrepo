@@ -7,7 +7,6 @@ on:
       - synchronize
     branches:
       - '**'
-      - '!release-*'   # excludes release branches
 
 jobs:
   main:
