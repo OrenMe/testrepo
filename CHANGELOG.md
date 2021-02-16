@@ -13,6 +13,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.1.1"></a>
+### [1.9.1](https://www.github.com/OrenMe/testrepo/compare/v1.9.0...v1.9.1) (2021-02-16)
+
+
+### Bug Fixes
+
+* new CONST T ([#24](https://www.github.com/OrenMe/testrepo/issues/24)) ([0e0215a](https://www.github.com/OrenMe/testrepo/commit/0e0215a9b2f1fafc5d67a47880475531f0a0c086))
+
 ## [1.9.0](https://www.github.com/OrenMe/testrepo/compare/v1.8.0...v1.9.0) (2021-02-16)
 
 
