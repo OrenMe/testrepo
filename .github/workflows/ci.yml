@@ -1,9 +1,10 @@
 name: CI
 
 # Update to match your requirements
-on: push
-  branches:
-    - '!release-*'   # excludes release branches
+on:
+  push:
+    branches:
+      - '!release-*'   # excludes release branches
 
 jobs:
   main:
