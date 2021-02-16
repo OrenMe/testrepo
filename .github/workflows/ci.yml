@@ -4,8 +4,9 @@ name: CI
 on:
   push:
     branches:
-      - '**'
-      - '!release-*'   # excludes release branches
+      - 'master'
+  pull_request:
+    types: [ assigned, opened, synchronize, reopened, labeled ]
 
 jobs:
   main:
