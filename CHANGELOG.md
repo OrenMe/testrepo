@@ -13,6 +13,19 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.1.1"></a>
+## [1.4.0](https://www.github.com/OrenMe/testrepo/compare/v1.3.0...v1.4.0) (2021-02-16)
+
+
+### Features
+
+* add new feat ([#8](https://www.github.com/OrenMe/testrepo/issues/8)) ([4e2d895](https://www.github.com/OrenMe/testrepo/commit/4e2d8952b11facc7ef44a4063a1528d21b3e0a4e))
+* update standard-version ([#11](https://www.github.com/OrenMe/testrepo/issues/11)) ([dc2280e](https://www.github.com/OrenMe/testrepo/commit/dc2280e9d82ad6237a764f098adec0e7f9f7d580))
+
+
+### Bug Fixes
+
+* CI workflow broken ([ab77b23](https://www.github.com/OrenMe/testrepo/commit/ab77b23498e44eff7814b2e4e256e5be2f6d9ea3))
+
 ## [1.3.0](https://www.github.com/OrenMe/testrepo/compare/v1.2.0...v1.3.0) (2021-02-14)
 
 
