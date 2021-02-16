@@ -1,11 +1,7 @@
 name: "Semantic PR title"
 on:
-  pull_request_target:
-    types:
-      - opened
-      - edited
-      - synchronize
-      - labaled
+  pull_request:
+    types: [ assigned, opened, synchronize, reopened, labeled ]
 
 jobs:
   main:
