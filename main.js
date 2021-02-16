@@ -1,5 +1,6 @@
 const X = 1000;
 const Y = 1000;
+const Z = 1000;
 
 function main(){
 	return false;
