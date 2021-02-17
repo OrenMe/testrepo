@@ -44,6 +44,6 @@ jobs:
         if: |
           steps.yarn-cache.outputs.cache-hit != 'true'
 
-#     Ready to run steps that rely on node_modules
-     - name: Build
-       run: yarn build
+      # Ready to run steps that rely on node_modules
+      - name: Build
+        run: yarn build
