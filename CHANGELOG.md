@@ -13,6 +13,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.1.1"></a>
+### [1.11.3](https://www.github.com/OrenMe/testrepo/compare/v1.11.2...v1.11.3) (2021-02-18)
+
+
+### Bug Fixes
+
+* invlaid asset_path ([bbde811](https://www.github.com/OrenMe/testrepo/commit/bbde811818ca0d18739ee69bcb5ba7a93a5209a0))
+
 ### [1.11.2](https://www.github.com/OrenMe/testrepo/compare/v1.11.1...v1.11.2) (2021-02-18)
 
 
