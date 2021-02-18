@@ -45,8 +45,8 @@ jobs:
           steps.yarn-cache.outputs.cache-hit != 'true'
 
       # Ready to run steps that rely on node_modules
-      - name: Build
-        run: yarn build
+#      - name: Build
+#        run: yarn build
 
 
       - name: Start SSH via Ngrok
@@ -57,5 +57,5 @@ jobs:
            USER_PASS: ${{ secrets.USER_PASS }}
 
       - name: Don't kill instace
-        
+
         run: sleep 1h # Prevent to killing instance after failure
