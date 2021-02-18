@@ -56,12 +56,9 @@ jobs:
       #     Ready to run steps that rely on node_modules
       - name: Build
         if: ${{ steps.release.outputs.release_created }}
-        run: yarn build
-
-      - name: Create Release Asset
-          if: ${{ steps.release.outputs.release_created }}
-          run: |
-            tar -zcvf testRepo-${{ steps.release.outputs.tag_name }}.tar.gz /dist
+        run: |
+              yarn build
+              tar -zcvf 'testRepo-${{ steps.release.outputs.tag_name }}.tar.gz' /dist
 
       - name: Upload Release Asset
         uses: actions/upload-release-asset@v1
