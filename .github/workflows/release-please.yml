@@ -56,7 +56,11 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         run: |
               yarn build
-              tar -zcvf 'testRepo-${{ steps.release.outputs.tag_name }}.tar.gz' /dist
+
+      - name: Build
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          tar -zcvf 'testRepo-${{ steps.release.outputs.tag_name }}.tar.gz' dist/
 
       - name: Upload Release Asset
         uses: actions/upload-release-asset@v1
