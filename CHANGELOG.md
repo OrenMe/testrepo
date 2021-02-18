@@ -13,6 +13,22 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.1.1"></a>
+## [1.10.0](https://www.github.com/OrenMe/testrepo/compare/v1.9.0...v1.10.0) (2021-02-18)
+
+
+### Features
+
+* add unit tests ([#30](https://www.github.com/OrenMe/testrepo/issues/30)) ([bbe8e47](https://www.github.com/OrenMe/testrepo/commit/bbe8e4751434e0b8f43fdc00e55fdf50cba0f7ca))
+* add webpack build ([#28](https://www.github.com/OrenMe/testrepo/issues/28)) ([640394d](https://www.github.com/OrenMe/testrepo/commit/640394dcd049ef8435f4647c731ef4aa24942dd6))
+* new method ([#26](https://www.github.com/OrenMe/testrepo/issues/26)) ([a72d1ba](https://www.github.com/OrenMe/testrepo/commit/a72d1ba26f7a5ca74d93bb4d4fe0396a31d079c2))
+* remove standard-version ([2e82abc](https://www.github.com/OrenMe/testrepo/commit/2e82abc0b0c00aa4321bda3b5b5eab3b30dca603))
+
+
+### Bug Fixes
+
+* new CONST T ([#24](https://www.github.com/OrenMe/testrepo/issues/24)) ([0e0215a](https://www.github.com/OrenMe/testrepo/commit/0e0215a9b2f1fafc5d67a47880475531f0a0c086))
+* workflow fail ([4fa80f0](https://www.github.com/OrenMe/testrepo/commit/4fa80f0361441f957e2d6ad23893caa6379ee05a))
+
 ## [1.9.0](https://www.github.com/OrenMe/testrepo/compare/v1.8.0...v1.9.0) (2021-02-16)
 
 
