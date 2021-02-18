@@ -13,6 +13,18 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.1.1"></a>
+## [1.11.0](https://www.github.com/OrenMe/testrepo/compare/v1.10.0...v1.11.0) (2021-02-18)
+
+
+### Features
+
+* add release tar to tag ([7f0349e](https://www.github.com/OrenMe/testrepo/commit/7f0349ee482b673ce00ca8f79ccd456f6318e8de))
+
+
+### Bug Fixes
+
+* build yml broken ([38d472b](https://www.github.com/OrenMe/testrepo/commit/38d472b29d63c01d7dcb782b516945596992353c))
+
 ## [1.10.0](https://www.github.com/OrenMe/testrepo/compare/v1.9.0...v1.10.0) (2021-02-18)
 
 
