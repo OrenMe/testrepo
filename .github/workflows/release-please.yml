@@ -58,17 +58,22 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         run: yarn build
 
-#      - name: Upload Release Asset
-#        uses: actions/upload-release-asset@v1
-#        id: upload-release-asset
-#        if: ${{ steps.release.outputs.release_created }}
-#        with:
-#          upload_url: ${{ steps.release.outputs.upload_url }}
-#          asset_path: ./dist/
-#          asset_name: package.tgz
-#          asset_content_type: application/tgz
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create Release Asset
+          if: ${{ steps.release.outputs.release_created }}
+          run: |
+            tar -zcvf testRepo-${{ steps.release.outputs.tag_name }}.tar.gz /dist
+
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1
+        id: upload-release-asset
+        if: ${{ steps.release.outputs.release_created }}
+        with:
+          upload_url: ${{ steps.release.outputs.upload_url }}
+          asset_path: ./
+          asset_name: testRepo-${{ steps.release.outputs.tag_name }}.tar.gz
+          asset_content_type: application/tgz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
 #      - run: npm ci
