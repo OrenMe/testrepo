@@ -13,6 +13,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.1.1"></a>
+### [1.11.2](https://www.github.com/OrenMe/testrepo/compare/v1.11.1...v1.11.2) (2021-02-18)
+
+
+### Bug Fixes
+
+* invalid tar folder name ([47c6458](https://www.github.com/OrenMe/testrepo/commit/47c6458812fa714acdd3c60e620ae93aa1b714f1))
+
 ### [1.11.1](https://www.github.com/OrenMe/testrepo/compare/v1.11.0...v1.11.1) (2021-02-18)
 
 
