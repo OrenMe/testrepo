@@ -48,10 +48,8 @@ jobs:
 
       # `--prefer-offline` gives cache priority
       - name: Install dependencies
+        if: ${{ steps.release.outputs.release_created }}
         run: yarn install --prefer-offline --frozen-lockfile
-        if: |
-          steps.yarn-cache.outputs.cache-hit != 'true' &&
-          ${{ steps.release.outputs.release_created }}
 
       #     Ready to run steps that rely on node_modules
       - name: Build
