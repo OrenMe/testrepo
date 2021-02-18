@@ -13,6 +13,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.1.1"></a>
+### [1.11.1](https://www.github.com/OrenMe/testrepo/compare/v1.11.0...v1.11.1) (2021-02-18)
+
+
+### Bug Fixes
+
+* release workflow cache ([#32](https://www.github.com/OrenMe/testrepo/issues/32)) ([7478d7a](https://www.github.com/OrenMe/testrepo/commit/7478d7a7e6349ea0dc820789ccec648ba5ebdccc))
+
 ## [1.11.0](https://www.github.com/OrenMe/testrepo/compare/v1.10.0...v1.11.0) (2021-02-18)
 
 
