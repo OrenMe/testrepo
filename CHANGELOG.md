@@ -13,6 +13,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.1.1"></a>
+## [1.13.0](https://www.github.com/OrenMe/testrepo/compare/v1.12.0...v1.13.0) (2021-04-07)
+
+
+### Features
+
+* add const U ([#37](https://www.github.com/OrenMe/testrepo/issues/37)) ([402018d](https://www.github.com/OrenMe/testrepo/commit/402018d5dc7b75c14147cc26b881811a3ba75258))
+
 ## [1.12.0](https://www.github.com/OrenMe/testrepo/compare/v1.11.3...v1.12.0) (2021-04-07)
 
 
