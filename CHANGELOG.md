@@ -13,6 +13,19 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.1.1"></a>
+## [1.14.0](https://github.com/OrenMe/testrepo/compare/v1.13.1...v1.14.0) (2022-08-04)
+
+
+### Features
+
+* add y value ([#56](https://github.com/OrenMe/testrepo/issues/56)) ([acc9f4d](https://github.com/OrenMe/testrepo/commit/acc9f4d41948a9faa70c766d4d64ef620e22c332))
+
+
+### Bug Fixes
+
+* update U ([#49](https://github.com/OrenMe/testrepo/issues/49)) ([7570975](https://github.com/OrenMe/testrepo/commit/7570975bacc4ecf90c4f30fa30097808a030989d))
+* update x value ([#54](https://github.com/OrenMe/testrepo/issues/54)) ([41abb42](https://github.com/OrenMe/testrepo/commit/41abb42f3827a467323452d9fcec4cbe35f23a58))
+
 ### [1.13.1](https://github.com/OrenMe/testrepo/compare/v1.13.0...v1.13.1) (2022-01-16)
 
 
