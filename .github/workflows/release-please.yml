@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-      - patch/*
+      - release-1.x
       
 jobs:
   release-please:
