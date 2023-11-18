@@ -13,6 +13,19 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.1.1"></a>
+## [2.0.0](https://github.com/OrenMe/testrepo/compare/v1.13.1...v2.0.0) (2023-11-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* move to using strings for x ([#47](https://github.com/OrenMe/testrepo/issues/47))
+
+### Features
+
+* add I ([#59](https://github.com/OrenMe/testrepo/issues/59)) ([710088e](https://github.com/OrenMe/testrepo/commit/710088edf902e92e1f5d322152e2ad3b58cef21c))
+* move to using strings for x ([#47](https://github.com/OrenMe/testrepo/issues/47)) ([e05a097](https://github.com/OrenMe/testrepo/commit/e05a097268923bda558224ec2c81e03d2d08a13b))
+* update I value to 1001 ([#61](https://github.com/OrenMe/testrepo/issues/61)) ([d3f7cfe](https://github.com/OrenMe/testrepo/commit/d3f7cfe4d6b0ddc3947135dd2ee703fcead6a6b5))
+
 ## [2.0.0](https://github.com/OrenMe/testrepo/compare/v1.13.1...v2.0.0) (2022-01-16)
 
 
